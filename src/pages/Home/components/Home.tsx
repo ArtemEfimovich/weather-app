@@ -1,14 +1,18 @@
 import React from 'react';
 import s from '../components/Home.module.scss'
 import ThisDay from "./ThisDay/ThisDay";
-
-
+import ThisDayInfo from "./ThisDayInfo/ThisDayInfo";
+import Days from "./Days/Days";
 
 
 const Home = () => {
     return (
         <div className={s.home}>
-          <ThisDay/>
+            <div className={s.wrapper}>
+                <ThisDay/>
+                <ThisDayInfo/>
+            </div>
+            <Days/>
         </div>
     );
 };
