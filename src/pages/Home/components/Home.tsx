@@ -1,5 +1,6 @@
 import React from 'react';
 import s from '../components/Home.module.scss'
+import ThisDay from "./ThisDay/ThisDay";
 
 
 
@@ -7,7 +8,7 @@ import s from '../components/Home.module.scss'
 const Home = () => {
     return (
         <div className={s.home}>
-            Home
+          <ThisDay/>
         </div>
     );
 };
