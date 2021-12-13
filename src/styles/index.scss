@@ -8,13 +8,14 @@
   box-sizing: border-box;
 }
 
-body{
+body {
+  position: relative;
   font-family: 'Montserrat', sans-serif;
 }
-
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 20px;
+  min-height: 100vh;
 }
